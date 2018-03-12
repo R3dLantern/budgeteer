@@ -1,3 +1,5 @@
-app:
-    resource: '@AppBundle/Controller/'
-    type: annotation
+budgeteer_local:
+    resource: "@BudgeteerLocalBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
